@@ -1,6 +1,6 @@
 .dashboard
 {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #000000;
   background-size: cover;
   background-position: top;
@@ -22,7 +22,8 @@
 }
 
 .chart-container .navbar-custom, 
-.table .navbar-custom 
+.table .navbar-custom,
+.main-container .navbar-custom 
 {
   background-color: #b7b7b736; 
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
@@ -32,10 +33,19 @@
   margin-top: 0px;
 }
 
-.chart-container .navbar-custom 
+.chart-container .navbar-custom,
+.main-container .navbar-custom
 {
   padding-top: 7px;
   padding-bottom: 7px;
+}
+
+.main-container .navbar-custom
+{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .dashboard .card-gradient
@@ -48,7 +58,8 @@
 /* navbar buttons*/
 .dashboard .btn.btn-outline-dark,
 .chart-container .btn.btn-outline-dark,
-.table .btn.btn-outline-dark 
+.table .btn.btn-outline-dark,
+.main-container .btn.btn-outline-dark 
 {
   padding: 8px;
   background: #00000000;
@@ -64,7 +75,9 @@
 .chart-container .btn.btn-outline-dark:hover,
 .chart-container .btn.btn-outline-dark:focus,
 .table .btn.btn-outline-dark:hover,
-.table .btn.btn-outline-dark:focus
+.table .btn.btn-outline-dark:focus,
+.main-container .btn.btn-outline-dark:hover,
+.main-container .btn.btn-outline-dark:focus
 {
   background: #ffffff;
   color: #000000;

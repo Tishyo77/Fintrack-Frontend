@@ -6,6 +6,7 @@ import Opening from './Opening';
 import UserContext from './UserContext';
 import Dashboard from './Dashboard';
 import Chart from './Chart';
+import Sip from './Sip';
 import RecordsPage from './RecordsPage';
 import Table from './Table';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -24,6 +25,7 @@ const App = () =>
                     <Route path='/dashboard' element={<Dashboard />}> </Route>
                     <Route path="/charts" element={<Chart />}> </Route>
                     <Route path="/records" element={<Table />}> </Route>
+                    <Route path="/sip" element={<Sip />}> </Route>
                 </Routes>
             </BrowserRouter>
         </UserContext.Provider>

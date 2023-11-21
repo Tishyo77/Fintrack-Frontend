@@ -286,8 +286,6 @@ function Calculate()
     const handleCategoryTypeChange = (value) => 
     {
         setSelectedCategoryType(value);
-
-        // Update category options based on the selected category type
         if (value === 'Income') 
         {
             setCategoryOptions(['Update Budget', "Don't Update"]);
@@ -311,7 +309,6 @@ function Calculate()
             <Navbar /> 
             <div className="container mt-5">
                 <div className="row">
-                    {/* <div className="col-1"></div> */}
                         <div className="col-6">
                             <div className="card card-gradient-left">
                                 <div className="card-body">

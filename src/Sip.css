@@ -1,0 +1,82 @@
+.main-container 
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Sulphur Point', sans-serif;
+  background-color: #d64045;
+  min-height: 100vh;
+}
+
+.main-container .form-container 
+{
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5dc;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.main-container .form-group 
+{
+  margin-bottom: 20px;
+}
+
+.main-container .form-group label 
+{
+  font-family: 'Sulphur Point', sans-serif;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.main-container .form-group input 
+{
+  font-family: "Lato", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(100% - 22px);
+}
+
+.main-container .form-container button:hover 
+{
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.main-container .form-container button 
+{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #e8f0fe;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e8f0fe;
+  color: #000000;
+  cursor: pointer;
+}
+
+.main-container .result-details 
+{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 600px) 
+{
+  .main-container .form-container 
+  {
+    padding: 20px;
+  }
+}

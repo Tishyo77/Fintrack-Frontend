@@ -13,7 +13,6 @@ const YourComponent = () =>
 
   useEffect(() => 
   {
-    // Fetch transactions
     axios.get(`https://fintrack-backend-xwk6.onrender.com/userRoute/retrieve-transactions?email=${userEmail}`)
       .then(response => 
       {
@@ -24,12 +23,11 @@ const YourComponent = () =>
       {
         console.error(error);
       });
-  }, []); // Empty dependency array ensures the effect runs once on mount
+  }, []); 
 
   return (
     <div className="table">
       <Navbar />
-      {/* Other components or content */}
       <TransactionTable transactions={transactions} />
     </div>
   );

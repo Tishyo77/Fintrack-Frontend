@@ -36,7 +36,6 @@ const SignUpPage = () =>
 
         let userExists = 0;
 
-        // Check if user with the same email already exists
         axios.get(`https://fintrack-backend-xwk6.onrender.com/userRoute/retrieve?email=${email}`)
         .then((userExistsResponse) => 
         {

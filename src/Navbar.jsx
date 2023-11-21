@@ -28,6 +28,9 @@ function Navbar()
           <Link to="/charts">
             <button className="btn btn-outline-dark me-5">Charts</button>
           </Link>
+          <Link to="/sip">
+            <button className="btn btn-outline-dark me-5">SIP Calculator</button>
+          </Link>
           <button className="btn btn-outline-dark me-2" onClick={handleLogout}>
             Log out
           </button>
