@@ -1,0 +1,233 @@
+.dashboard
+{
+  height: 100vh;
+  background-color: #000000;
+  background-size: cover;
+  background-position: top;
+}
+
+.dashboard img 
+{
+  width: 125px; 
+}
+
+.dashboard .navbar-custom 
+{
+  background-color: #00000051; 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.chart-container .navbar-custom, 
+.table .navbar-custom 
+{
+  background-color: #b7b7b736; 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+
+.chart-container .navbar-custom 
+{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.dashboard .card-gradient
+{
+  background: rgb(132, 181, 255); 
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
+  color: white; 
+}
+
+/* navbar buttons*/
+.dashboard .btn.btn-outline-dark,
+.chart-container .btn.btn-outline-dark,
+.table .btn.btn-outline-dark 
+{
+  padding: 8px;
+  background: #00000000;
+  border: solid rgb(255, 255, 255) 1px;
+  font-size: 15px;
+  margin: 2px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.dashboard .btn.btn-outline-dark:hover,
+.dashboard .btn.btn-outline-dark:focus,
+.chart-container .btn.btn-outline-dark:hover,
+.chart-container .btn.btn-outline-dark:focus,
+.table .btn.btn-outline-dark:hover,
+.table .btn.btn-outline-dark:focus
+{
+  background: #ffffff;
+  color: #000000;
+}
+  
+/* Card styles */
+.dashboard .card-gradient 
+{
+  background-color: #ffc9c9;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.card-gradient .card-title,
+.card-gradient-left .card-title
+{
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: 700;
+}
+
+.card-gradient .card-body,
+.card-gradient-left .card-body
+{
+  text-align: center;
+}
+
+.card-gradient .card-text,
+.card-gradient-left .card-text
+{
+  font-size: 70px;
+  margin-top: 20px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.card-gradient .card-days,
+.card-gradient-left .card-days
+{
+  font-size: 20px;
+}
+
+.dashboard .card-gradient-left 
+{
+  background-color: rgb(238, 255, 165);
+  color: #000000;
+  border-radius: 10px;
+}
+
+.dashboard .card-gradient-right
+{
+  font-family: 'Sulphur Point', sans-serif;
+  background-color: lightgreen;
+  color: #000000;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-gradient-right .card-title
+{
+  padding-bottom: 10px;
+}
+
+.dashboard .editIcon 
+{
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: color 0.3s ease; 
+}
+  
+.dashboard .editIcon:hover 
+{
+  color: #000000; 
+}
+  
+/* Calculator styles */
+.dashboard .calculator-container 
+{
+  background: #dbffe3;
+  padding: 10px;
+  border-radius: 5px;
+  height: 90%;
+}
+  
+.dashboard .display input 
+{
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px;
+}
+  
+.dashboard .buttons 
+{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  
+.dashboard .button-row 
+{
+  display: flex;
+  justify-content: center;
+}
+  
+.dashboard .btn.btn-info 
+{
+  padding: 10px;
+  background: #50C878;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); 
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+  width: 75px;
+  border-radius: 5px;
+}
+  
+
+.dashboard .btn.btn-info:hover,
+.dashboard .btn.btn-info:focus 
+{
+  background: #008000;
+  color: #ffffff;
+}
+
+.dashboard .btn.btn-outline-dark.me-2.add-record-button
+{
+  padding: 10px 20px; 
+  background: #c21b1b; 
+  color: #fff; 
+  border: 2px solid #9b1111;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.dashboard .btn.btn-outline-dark.me-2.add-record-button:hover 
+{
+  background: #9b1111; 
+}
+
+.dashboard .btn.btn-outline-dark.me-2.evaluate-button 
+{
+  padding: 5px 20px; 
+  background: #018601; 
+  color: #fff; 
+  border: 2px solid #037203;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.dashboard .btn.btn-outline-dark.me-2.evaluate-button:hover 
+{
+  background: #046404; 
+}
+
+.dashboard .form-select:hover 
+{
+  background: #e9e9e9; 
+  color: #070707; 
+  cursor: pointer; 
+}

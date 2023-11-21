@@ -1,0 +1,42 @@
+.table 
+{
+    height: 100%;
+    background-color: #d64045;
+    margin: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+  
+.table h2 
+{
+    font-family: 'Sulphur Point', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.table .body 
+{
+    font-family: 'Sulphur Point', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+  
+.table th,
+.table td 
+{
+    border-bottom: solid rgba(164, 164, 164, 0.523) 1px;
+    padding: 10px;
+    background-color: #f5f5dc;
+}
+  
+.table th 
+{
+    background-color: #ffffa0;
+}
+  

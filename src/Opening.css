@@ -1,0 +1,79 @@
+.budget-page {
+  background-color: rgb(186, 218, 255);
+  background-image: url('Images/BG4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.budget-page .container {
+  background-color: rgba(115, 115, 115, 0.425);
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 2px 2px #0000000b;
+}
+
+.budget-page .logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.budget-page .form-container {
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.budget-page .custom-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.budget-page .proceed {
+  font-family: 'Sulphur Point', sans-serif;
+  background-color: rgb(194, 255, 210);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+  padding-left: 85px;
+  padding-right: 85px;
+  font-size: 15px;
+}
+
+.budget-page .proceed:hover {
+  background-color: rgb(83, 145, 99); 
+}
+
+@media screen and (max-width: 600px) {
+  .budget-page .container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .budget-page .custom-input {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .budget-page .container {
+    max-width: 600px;
+  }
+}

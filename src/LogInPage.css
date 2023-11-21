@@ -1,0 +1,130 @@
+.login-page {
+  background-color: rgb(186, 218, 255);
+  background-image: url('Images/BG4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-page .container {
+  background-color: rgba(115, 115, 115, 0.425);
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 2px 2px #0000000b;
+}
+
+.login-page .logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.login-page .form-container {
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.login-page .custom-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.login-page .error-input {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.login-page .log-in {
+  font-family: 'Sulphur Point', sans-serif;
+  background-color: rgb(194, 255, 210);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+  padding-left: 85px;
+  padding-right: 85px;
+  font-size: 15px;
+}
+
+.login-page .log-in:hover {
+  background-color: rgb(83, 145, 99); 
+}
+
+.login-page .not-member {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+}
+
+.login-page .not-member a {
+  color: #4285f4; 
+  text-decoration: none;
+}
+
+.login-page .not-member a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .login-page .container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .login-page .custom-input {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login-page .container {
+    max-width: 600px;
+  }
+}
+
+.login-page .google-button {
+  background-color: rgb(232, 255, 244);
+  display: flex; 
+  align-items: center; 
+  font-family: 'Sulphur Point', sans-serif;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.login-page .google-logo {
+  width: 24px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+.login-page .google-button:hover {
+  background-color: rgb(202, 202, 202); 
+}
+
+.login-page .google-button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px;
+}
