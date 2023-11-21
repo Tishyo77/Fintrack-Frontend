@@ -22,6 +22,9 @@ function Navbar()
           <img src={logo} alt="Logo" />
         </div>
         <form className="d-flex">
+          <Link to="/dashboard">
+            <button className="btn btn-outline-dark me-2">Dashboard</button>
+          </Link>
           <Link to="/records">
             <button className="btn btn-outline-dark me-2">Records</button>
           </Link>
